@@ -1,0 +1,18 @@
+{
+  "name": "verbos-da-fe",
+  "version": "1.0.0",
+  "description": "Site de bate-papo com Deus - Verbos da Fé",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["chat", "Deus", "Verbos da Fé", "Express", "GPT"],
+  "author": "Verbos da Fé",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.9"
+  }
+}
