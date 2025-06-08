@@ -15,7 +15,7 @@ async function sendMessage() {
     return;
   }
 
-  const response = await fetch('https://verselt.onrender.com/api/message', {
+  const response = await fetch('/chat', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ message: text })
